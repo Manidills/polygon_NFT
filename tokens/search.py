@@ -6,7 +6,7 @@ import requests, json
 
 
 def search():
-    input = st.text_input("Enter The Token_ID ",)
+    input = st.text_input("Enter Token ID ",)
 
     if input:
         df = load()

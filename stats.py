@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import datetime
 import requests
-from st_aggrid import AgGrid
-from st_aggrid.grid_options_builder import GridOptionsBuilder
+# from st_aggrid import AgGrid
+# from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 #add an import to Hydralit
 from hydralit import HydraHeadApp
@@ -19,7 +19,7 @@ class Stats(HydraHeadApp):
         Current_Date = datetime.datetime.today().strftime ('%Y-%m-%d')
         Previous_Date = datetime.datetime.today() - datetime.timedelta(days=1)
         Previous_Date = Previous_Date.strftime ('%Y-%m-%d')
-        input = st.text_input("Enter The Contract_address ",)
+        input = st.text_input("Enter Contract address ",)
         
             
 
@@ -37,13 +37,13 @@ class Stats(HydraHeadApp):
                 else:
                     st.info("something wrong")
             
-            gb = GridOptionsBuilder.from_dataframe(contract_api())
-            gb.configure_pagination()
-            gb.configure_grid_options(rowHeight=50)
-            gridOptions = gb.build()
+        #     gb = GridOptionsBuilder.from_dataframe(contract_api())
+        #     gb.configure_pagination()
+        #     gb.configure_grid_options(rowHeight=50)
+        #     gridOptions = gb.build()
 
-            AgGrid(contract_api(), gridOptions=gridOptions, height=800
-         )
+        #     AgGrid(contract_api(), gridOptions=gridOptions, height=800
+        #  )
         
         else:
             @st.cache
@@ -59,10 +59,10 @@ class Stats(HydraHeadApp):
                 else:
                     st.info("something wrong")
             st.info('All Collection Info')
-            gb = GridOptionsBuilder.from_dataframe(api())
-            gb.configure_pagination()
-            gb.configure_grid_options(rowHeight=50)
-            gridOptions = gb.build()
-            AgGrid(api(), gridOptions=gridOptions, height=800 )
+            # gb = GridOptionsBuilder.from_dataframe(api())
+            # gb.configure_pagination()
+            # gb.configure_grid_options(rowHeight=50)
+            # gridOptions = gb.build()
+            # AgGrid(api(), gridOptions=gridOptions, height=800 )
 
         

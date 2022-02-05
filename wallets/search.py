@@ -8,7 +8,7 @@ import requests, json
 
 
 def search():
-    input = st.text_input("Enter The wallet_address ",)
+    input = st.text_input("Enter Wallet address ",)
     
 
     if input:

@@ -16,7 +16,7 @@ class Wallet(HydraHeadApp):
     def run(self):
         values = ["Chicken Derby"]
         default_ix = values.index("Chicken Derby")
-        window_ANTICOR = st.selectbox('COLLECTION PICKER', values, index=default_ix)
+        window_ANTICOR = st.selectbox('Select', values, index=default_ix)
         st.markdown("####")
         metric = wal()
         check = search()

@@ -7,7 +7,7 @@ import requests, json
        
 @st.cache(allow_output_mutation=True)
 def load():
-    df = pd.read_csv('/home/dills/Music/ethglobal/data/chicken_nft.csv')
+    df = pd.read_csv('./data/chicken_nft.csv')
     return df
 
 @st.cache(allow_output_mutation=True)
