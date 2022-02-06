@@ -77,7 +77,7 @@ To get a local copy up and running follow these simple example steps.
 Follow these steps to install certain packages which is to be installed in this project also make your own 
 API key from covalent to get access for data.
 
-1. Get a free API Key from [covalent](https://www.covalenthq.com/) and [NFT Port](https://www.nftport.xyz/)]
+1. Get a free API Key from [covalent](https://www.covalenthq.com/) and [NFT Port](https://www.nftport.xyz/)
 2. Clone the repo
 3. streamlit run main.py
 
