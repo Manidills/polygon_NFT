@@ -32,9 +32,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#application insights">Usage</a></li>
     <li><a href="#API">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -46,7 +45,7 @@
 
 Polygon, formerly known as Matic Network, is a blockchain scalability platform 
 and framework for connecting and building blockchain networks compatible
-with Ethereum. The main idea behind this project to showcasewhat's actually happening inside the market in terms 
+with Ethereum. The main idea behind this project to showcase what's actually happening inside the market in terms 
 of NTF transactions, new collections, unique wallets. Since the real value of Polygon NFTs lies on thier potential to 
 transform the way markets function and enhance the insigts.so that people can start utilizing 
 polygon in a better way by looking at the stats. 
