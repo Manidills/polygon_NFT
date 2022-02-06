@@ -7,7 +7,7 @@ from predict import predict
 
 class Home(HydraHeadApp):
     def run(self):
-        img = Image.open("./images/cover.JPG")
+        img = Image.open("images/cover.jpg")
         st.image(img,  caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
         st.markdown('#') 
@@ -22,7 +22,7 @@ class Home(HydraHeadApp):
         st.markdown('#') 
         st.markdown("<h4 style='text-align: center; color: white;'>Polygon(MATIC)  Volume Prediction </h4>", unsafe_allow_html=True)
 
-        file_path_ = './data./polygon_volume.csv'
+        file_path_ = './data/polygon_volume.csv'
         split_percent_ = 0.65
         predict_model_ =  './data/polygon_volume.h5'
         volume_chart = predict(file_path_,split_percent_,predict_model_)

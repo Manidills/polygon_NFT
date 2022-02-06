@@ -26,7 +26,7 @@ class Collection(HydraHeadApp):
 
         st.markdown('#') 
 
-        file_path_ = './data./chicken_nft_volume.csv'
+        file_path_ = './data/chicken_nft_volume.csv'
         split_percent_ = 0.75
         predict_model_ =  './data/volume.h5'
         volume_chart = predict(file_path_,split_percent_,predict_model_)
