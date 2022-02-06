@@ -32,10 +32,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#application insights">Usage</a></li>
-    <li><a href="#API">Contributing</a></li>
+    <li><a href="#Usage">Application Insights</a></li>
+    <li><a href="#API">API's </a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
