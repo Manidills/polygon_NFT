@@ -7,11 +7,6 @@
     <img src="https://www.mtpelerin.com/images/matic-coin.svg" alt="Logo" width="80" height="80">
 
   <h3 align="center">Polygon NFT Stats</h3>
-
-  <p align="center">
-    The real value of Polygon NFTs lies in their potential to transform the way markets function and enhance the
- way we manage and control sensitive information.
-  </p>
 </div>
 
 
