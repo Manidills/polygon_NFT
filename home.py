@@ -15,9 +15,9 @@ class Home(HydraHeadApp):
         total_volume,daily_avg,weekly_avg = polygon_metric('./data/polygon_volume.csv')
 
         col1, col2, col3 = st.columns((3,3,3))
-        col1.metric(label = "Total Volume", value = total_volume , delta = "+$0.25")
-        col2.metric(label = "Average Daily Volume", value = daily_avg , delta = "+$3.00")
-        col3.metric(label = "Average Weekly Volume", value = weekly_avg, delta = "-$1.25")
+        col1.metric(label = "Total Volume", value = '$' + str(total_volume) )
+        col2.metric(label = "Average Daily Volume", value = '$'+ str(daily_avg) )
+        col3.metric(label = "Average Weekly Volume", value = '$' + str(weekly_avg))
 
         st.markdown('#') 
         st.markdown("<h4 style='text-align: center; color: white;'>Polygon(MATIC)  Volume Prediction </h4>", unsafe_allow_html=True)

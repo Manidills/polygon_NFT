@@ -66,9 +66,9 @@ def predict(file_path,split_percent,predict_model):
 
     # calculate root mean squared error
     trainScore = math.sqrt(mean_squared_error(trainY[0], trainpredict[:,0]))
-    print('Train Score: %.2f RootMSE' % (trainScore))
+    #print('Train Score: %.2f RootMSE' % (trainScore))
     testScore = math.sqrt(mean_squared_error(testY[0], testPredict[:,0]))
-    print('Test Score: %.2f RootMSE' % (testScore))
+    #print('Test Score: %.2f RootMSE' % (testScore))
 
     # shift train predictions for plotting
     trainpredictPlot = numpy.empty_like(dataset)
