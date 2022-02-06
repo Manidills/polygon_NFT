@@ -161,7 +161,7 @@ Project Link: (https://github.com/Manidills/polygon_NFT/blob/master)
 
 ## Acknowledgments
 
-I would like to give credit to below teams for providing the API's
+Would like to give credit to below teams for providing the API's
 
 * [Covalent](https://www.covalenthq.com/)
 * [NFT Port](https://www.nftport.xyz/)
