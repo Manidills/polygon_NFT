@@ -26,7 +26,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Usage">Application Insights</a></li>
+    <li><a href="#Application Insights">Application Insights</a></li>
     <li><a href="#API">API's </a></li>
     <li><a href="#ProjectLink">Project Link</a></li>
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
@@ -99,7 +99,7 @@ API key from covalent to get access for data.
 
 
 
-## Usage
+## Application Insights
 
 The chain polygon is covered in this application with general information and predictions.
 Volume exchanges per day, unique wallets per day, collection-wise unique wallets and volume, and 
