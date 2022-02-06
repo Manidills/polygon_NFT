@@ -45,7 +45,8 @@ People can start utilizing polygon in a better way by looking at the stats.
 
 Project link : [Polygon NFT Stats](https://share.streamlit.io/manidills/polygon_nft/main.py)
 
-[image](https://user-images.githubusercontent.com/91189264/152693313-38be3f76-1945-4d07-9988-b1bdc32462df.png)
+
+<img src="https://user-images.githubusercontent.com/91189264/152693313-38be3f76-1945-4d07-9988-b1bdc32462df.png" alt="Logo" width="300" height="300">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
