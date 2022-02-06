@@ -28,7 +28,7 @@
     </li>
     <li><a href="#Usage">Application Insights</a></li>
     <li><a href="#API">API's </a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#ProjectLink">Project Link</a></li>
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -148,10 +148,7 @@ https://api.covalenthq.com/v1/:chain_id/tokens/:contract_address/nft_transaction
 https://api.nftport.xyz/v0/accounts/address
 https://api.nftport.xyz/v0/duplicates/tokens
 
-## Contact
-
-[Ashik Abdul Rahuman](https://www.linkedin.com/in/ashikrahumanabr/)
-[Manikandan](https://www.linkedin.com/in/mani-kandan-a-025aa7149/)
+## ProjectLink
 
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
