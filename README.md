@@ -26,7 +26,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Insights">Application Insights</a></li>
+    <li><a href="#Usage">Application Insights</a></li>
     <li><a href="#API">API's </a></li>
     <li><a href="#ProjectLink">Project Link</a></li>
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
@@ -99,7 +99,7 @@ API key from covalent to get access for data.
 
 
 
-## Insights
+## Usage
 
 The chain polygon is covered in this application with general information and predictions.
 Volume exchanges per day, unique wallets per day, collection-wise unique wallets and volume, and 
@@ -119,7 +119,7 @@ We've also included the current owner of the token id, as well as the characteri
 * The wallet page displays a list of unique wallets, as well as the top seller by volume, tokens top seller by volume, and total transactions, 
 among other information. We've also compiled a list of the top 100 wallet-to-wallet transactions in the chain polygon.
 
-* Duplicate page shows the duplicate tokens by providing key such as token id as the input.
+* Duplicate page shows the near duplicate token minted in same nft collection / other collections.
 
 * The state page includes all of the collectios across the chain polygon, along with the market cap, transaction count, and floor price,etc.
 
