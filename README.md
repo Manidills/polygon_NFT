@@ -1,5 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 <!-- PROJECT LOGO -->
 
@@ -99,19 +98,8 @@ To get a local copy up and running follow these simple example steps.
 Follow these steps to install certain packages which is to be installed in this project also make your own 
 API key from covalent to get access for data.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. clone the master branch repo
+2. "streamlit run main.py" is the cmd that used to activate the repo
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
