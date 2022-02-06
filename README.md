@@ -43,7 +43,7 @@ with Ethereum. The main idea behind this project to showcase what's actually hap
 of NFT transactions, NFT collections, unique wallets and NFT growth. Since the real value of Polygon NFTs lies on the way market functions, 
 People can start utilizing polygon in a better way by looking at the stats. 
 
-Project link : [Polygon NFT Stats](https://share.streamlit.io/manidills/polygon_nft/main.py)
+Website link : [Polygon NFT Stats](https://share.streamlit.io/manidills/polygon_nft/main.py)
 
 
 <img src="https://user-images.githubusercontent.com/91189264/152693313-38be3f76-1945-4d07-9988-b1bdc32462df.png" alt="Logo" width="1300" height="550">
@@ -146,6 +146,7 @@ https://api.covalenthq.com/v1/:chain_id/tokens/:contract_address/nft_transaction
 ##NFTPORT API
 
 https://api.nftport.xyz/v0/accounts/address
+
 https://api.nftport.xyz/v0/duplicates/tokens
 
 ## ProjectLink
