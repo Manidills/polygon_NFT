@@ -15,6 +15,6 @@ def metrics():
     #frequent_token
     frequent = df['token_id'].value_counts()[:3].index.tolist()
     
-    col1.metric(label = "Unique Tokens", value = unique_tokens)
-    col2.metric(label = "Highest sold Token ID  (volume)", value = net['token_id'].max())
-    col3.metric(label = "Most transferred Token ID ", value = frequent[0])
+    col1.metric(label = "UNIQUE_TOKENS", value = unique_tokens)
+    col2.metric(label = "HIGH VOLUME SOLD TOKEN ID", value = net['token_id'].max())
+    col3.metric(label = "HIGHLY TRANS/SOLD TOKEN ID", value = frequent[0])

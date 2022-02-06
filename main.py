@@ -6,6 +6,7 @@ from home import Home
 from tokens.toks import Token
 from wallets.wallets import Wallet
 from collection import Collection
+from duplicate import Duplicate
 
 #ckey_eb29565e970e4b46930dca374df
 
@@ -30,6 +31,7 @@ if __name__ == '__main__':
     app.add_app("Collection", app = Collection())
     app.add_app("Token", app=Token())
     app.add_app("Wallet", app=Wallet())
+    app.add_app("Duplicate", app=Duplicate())
     app.add_app("Stats", app=Stats())
     
 
