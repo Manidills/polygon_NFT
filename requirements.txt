@@ -1,10 +1,10 @@
 altair==4.2.0
-hydralit==1.0.11
-keras==2.8.0
 numpy==1.22.1
 pandas==1.4.0
 Pillow==9.0.1
 requests==2.22.0
 scikit_learn==1.0.2
+hydralit
+keras==2.8.0
 streamlit==1.4.0
 streamlit-aggrid
