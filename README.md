@@ -78,7 +78,7 @@ To get a local copy up and running follow these simple example steps.
 Follow these steps to install certain packages which is to be installed in this project also make your own 
 API key from covalent to get access for data.
 
-# ( we not taken complete polygon data for Home page stats ,its just a sample data ) 
+## Home page data is not complete polygon data, we can take it as approx 
 
 1. Get a free API Key from [covalent](https://www.covalenthq.com/) and [NFT Port](https://www.nftport.xyz/)
 2. Clone the repo
