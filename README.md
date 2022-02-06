@@ -4,9 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+    <img src="https://www.mtpelerin.com/images/matic-coin.svg" alt="Logo" width="80" height="80">
 
   <h3 align="center">Polygon NFT Stats</h3>
 
