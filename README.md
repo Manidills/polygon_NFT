@@ -14,5 +14,6 @@ https://api.covalenthq.com/v1/:chain_id/tokens/:contract_address/nft_transaction
 ##NFTPORT
 
 https://api.nftport.xyz/v0/accounts/address
+
 https://api.nftport.xyz/v0/duplicates/tokens
 
