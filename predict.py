@@ -89,7 +89,6 @@ def predict(file_path,split_percent,predict_model):
     data = [x for i in t for x in i]
     predicted =  [x for i in p for x in i]
  
-
     if 'wallet' in predict_model:
         titY = 'Wallet Count →'
     else:
