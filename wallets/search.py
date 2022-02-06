@@ -59,6 +59,7 @@ def search():
                 st.warning("Address currently not holding any NFTS in chicken derby")
             else:
                 df = pd.DataFrame(holding_nfts)
+                df.drop(['description','file_url','creator_address'], axis=1, inplace=True)
                 st.dataframe(df)
 
            
