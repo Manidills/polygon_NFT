@@ -119,7 +119,7 @@ We've also included the current owner of the token id, as well as the characteri
 * The wallet page displays a list of unique wallets, as well as the top seller by volume, tokens top seller by volume, and total transactions, 
 among other information. We've also compiled a list of the top 100 wallet-to-wallet transactions in the chain polygon.
 
-* Duplicate page shows the near duplicate token minted in same nft collection / other collections.
+* Duplicate page shows the near duplicate token minted in the same nft collections or other.
 
 * The state page includes all of the collectios across the chain polygon, along with the market cap, transaction count, and floor price,etc.
 
