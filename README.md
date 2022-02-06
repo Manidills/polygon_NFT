@@ -82,8 +82,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-#Requirements
-
 * altair==4.2.0
 * hydralit==1.0.11
 * keras==2.8.0
@@ -95,11 +93,6 @@ To get a local copy up and running follow these simple example steps.
 * streamlit==1.4.0
 * streamlit-aggrid
 
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
