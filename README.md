@@ -5,7 +5,6 @@
 <br />
 <div align="center">
     <img src="https://www.mtpelerin.com/images/matic-coin.svg" alt="Logo" width="80" height="80">
-
   <h3 align="center">Polygon NFT Stats</h3>
 </div>
 
@@ -45,6 +44,8 @@ of NFT transactions, NFT collections, unique wallets and NFT growth. Since the r
 People can start utilizing polygon in a better way by looking at the stats. 
 
 Project link : [Polygon NFT Stats](https://share.streamlit.io/manidills/polygon_nft/main.py)
+
+[image](https://user-images.githubusercontent.com/91189264/152693313-38be3f76-1945-4d07-9988-b1bdc32462df.png)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -161,6 +162,7 @@ I would like to give credit to below teams for providing the API's
 * [NFT Port](https://www.nftport.xyz/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
