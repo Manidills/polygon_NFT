@@ -23,3 +23,28 @@ def load_meta(x):
     else:
         return 'error', 'error'
         
+
+def nfts(x):
+        #account = '0x3842ac0946f1fcaaa56842e9b354731276746fa5'
+
+        url = f"https://api.nftport.xyz/v0/accounts/{str(x)}"
+
+        querystring = {"chain":"polygon"}
+
+        headers = {
+            'Content-Type': "application/json",
+            'Authorization': "f6ce3372-a928-4947-8f50-87649f60cee2"
+            }
+
+        response = requests.request("GET", url, headers=headers, params=querystring)
+
+        data = response.json()
+        data = data['nfts']
+
+        chicken = []
+
+        for i in data:
+            if i['contract_address'] == '0x8634666ba15ada4bbc83b9dbf285f73d9e46e4c2':
+                chicken.append(i)
+
+        return chicken

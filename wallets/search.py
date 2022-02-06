@@ -1,9 +1,10 @@
+from email.mime import image
 import streamlit as st
 import altair as alt
 import datetime
 import numpy as np
 import pandas as pd
-from load import load, load_meta
+from load import load, load_meta, nfts
 import requests, json
 
 
@@ -49,6 +50,17 @@ def search():
             st.markdown('####')
             st.info('Sale Chart')
             st.altair_chart(line)
+
+            st.info('Holding tokens')
+
+            holding_nfts = nfts(str(input))
+
+            if not holding_nfts:
+                st.warning("Address currently not holding any NFTS in chicken derby")
+            else:
+                df = pd.DataFrame(holding_nfts)
+                st.dataframe(df)
+
            
            
 

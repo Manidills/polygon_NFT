@@ -92,7 +92,7 @@ def predict(file_path,split_percent,predict_model):
     if 'wallet' in predict_model:
         titY = 'Wallet Count →'
     else:
-        titY = 'Volume →'    
+        titY = 'Volume(USD) →'    
 
     dff = pd.DataFrame({'date':df1['__timestamp'].to_list(),'data':data},columns=['date','data'])    
     dff1 = pd.DataFrame({'date':df1['__timestamp'].to_list(),'data':predicted},columns=['date','data'])  
@@ -110,7 +110,7 @@ def predict(file_path,split_percent,predict_model):
     
     basic_chart = base.mark_line(color="Yellowgreen").encode(
     x=alt.X('date:T', axis=alt.Axis(titleFontSize=12, title='Time →', labelColor='#999999', titleColor='#AF7AC5', titleAlign='right', titleAnchor='end', titleY=45,labelAngle = -45, labelOverlap = False)),
-    y=alt.Y('data:Q', axis=alt.Axis(format="$s", tickCount=3, titleFontSize=12, title=titY, labelColor='#999999', titleColor='#3498DB', titleAnchor='end')),
+    y=alt.Y('data:Q', axis=alt.Axis(format="s", tickCount=3, titleFontSize=12, title=titY, labelColor='#999999', titleColor='#3498DB', titleAnchor='end')),
     color=alt.Color('Actual:N', scale=scale, title='')
     ).properties(    
     width=1280,

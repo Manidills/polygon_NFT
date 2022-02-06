@@ -7,7 +7,7 @@ from predict import predict
 
 class Home(HydraHeadApp):
     def run(self):
-        img = Image.open("images/cover.jpg")
+        img = Image.open("images/cover1.jpg")
         st.image(img,  caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
         st.markdown('#') 
