@@ -78,6 +78,8 @@ To get a local copy up and running follow these simple example steps.
 Follow these steps to install certain packages which is to be installed in this project also make your own 
 API key from covalent to get access for data.
 
+# ( we not taken complete polygon data for Home page stats ,its just a sample data ) 
+
 1. Get a free API Key from [covalent](https://www.covalenthq.com/) and [NFT Port](https://www.nftport.xyz/)
 2. Clone the repo
 3. streamlit run main.py
@@ -107,8 +109,9 @@ so on are all included in the forecast. This will provide a clear statistic to N
 As a result, they will be able to invest according to market conditions. This also provides a graphical view of 
 how the chain works over time and how the market fluctuates.
 
+
 * The home page represents the total volume and wallet prediction across the chain polygon by line chart and includes a few key metrices 
-like Total volume, Average daily volume, and Average weekly volume. 
+like Total volume, Average daily volume, and Average weekly volume. Time series forecasting model was built here to predict the number(LSTM).
 
 * The collection page depicts  the overall volume and wallet prediction across all collections in the chain polygon by line chart; for example, 
 we've provided a few key metrics and predictions of volume and wallet over the period of time for Chicken Derby. The metrices includes total volume, average daily volume, and average weekly volume.
