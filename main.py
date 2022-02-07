@@ -8,7 +8,7 @@ from wallets.wallets import Wallet
 from collection import Collection
 from duplicate import Duplicate
 
-#ckey_eb29565e970e4b46930dca374df
+
 
 st.set_page_config(
     page_title="ETH Global hack",
